@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Citigroup Loan Portfolio Analysis</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .highlight {
+            background-color: #d4edda;
+        }
+    </style>
+</head>
+<body>
+    <h2>1. Loan Portfolio Changes Analysis</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Loan Type</th>
+                <th>1Q2025 EOP Loans ($B)</th>
+                <th>4Q2024 EOP Loans ($B)</th>
+                <th>1Q2024 EOP Loans ($B)</th>
+                <th>QoQ Change (%)</th>
+                <th>YoY Change (%)</th>
+                <th>1Q2025 ACL Build/Release ($M)</th>
+                <th>1Q2025 Net Credit Losses ($M)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Branded Cards (USPB)</td>
+                <td>216</td>
+                <td>216</td>
+                <td>204</td>
+                <td>0%</td>
+                <td class="highlight">6%</td>
+                <td class="highlight">-171</td>
+                <td>1,983</td>
+            </tr>
+            <tr>
+                <td>Corporate Lending (Banking)</td>
+                <td>82</td>
+                <td>84</td>
+                <td>89</td>
+                <td>-2%</td>
+                <td class="highlight">-8%</td>
+                <td class="highlight">185</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>Services</td>
+                <td>87</td>
+                <td>87</td>
+                <td>82</td>
+                <td>0%</td>
+                <td class="highlight">6%</td>
+                <td class="highlight">18</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Markets</td>
+                <td>128</td>
+                <td>122</td>
+                <td>120</td>
+                <td>5%</td>
+                <td class="highlight">7%</td>
+                <td class="highlight">57</td>
+                <td>142</td>
+            </tr>
+            <tr>
+                <td>Wealth</td>
+                <td>147</td>
+                <td>148</td>
+                <td>149</td>
+                <td>-1%</td>
+                <td class="highlight">-1%</td>
+                <td class="highlight">60</td>
+                <td>38</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. Qualitative Summary</h2>
+    <p>
+        <strong>Loan Portfolio Trends:</strong>
+        <ul>
+            <li><strong>Branded Cards (USPB):</strong> Loan balances increased by 6% YoY, driven by higher card spend volume and interest-earning balances. The ACL release in 1Q2025 (-$171M) reduced delinquencies compared to a $246M build in 4Q2024, reflecting improved portfolio management and lower risk exposure.</li>
+            <li><strong>Corporate Lending (Banking):</strong> Loans declined by 8% YoY, primarily due to lower loan balances and higher prior-year recoveries. The $185M ACL build in 1Q2025 indicates increased provisioning for macroeconomic risks, despite a 44% QoQ revenue growth from mark-to-market adjustments.</li>
+            <li><strong>Services:</strong> Loan growth of 6% YoY was supported by Treasury and Trade Solutions (TTS) market share gains. A modest $18M ACL build suggests stable credit quality, though non-interest revenue fell 29% QoQ due to FX impacts and revenue-sharing adjustments.</li>
+            <li><strong>Markets:</strong> Loans rose 7% YoY, driven by higher trading account assets and client activity. However, net credit losses increased 82% YoY, reflecting heightened risk in spread products, partially offset by a 52% decline in ACL builds compared to 1Q2024.</li>
+            <li><strong>Wealth:</strong> Slight 1% YoY loan decline was offset by higher deposit spreads and investment fee revenues. A $60M ACL build in 1Q2025 highlights cautious provisioning amid macroeconomic uncertainty, despite a 24% YoY revenue increase.</li>
+        </ul>
+        <strong>Key Drivers:</strong> 
+        - <em>Origination</em> growth in Branded Cards and Markets was offset by declines in Banking. 
+        - <em>Delinquencies</em> improved in Corporate Lending and Services but worsened in Markets. 
+        - <em>Macro factors</em> (e.g., U.S. economic resilience, FX volatility) influenced ACL adjustments and credit losses across segments.
+    </p>
+</body>
+</html>

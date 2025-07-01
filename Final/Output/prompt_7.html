@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Citigroup 1Q2025 Credit Quality Analysis</title>
+    <style>
+        table { 
+            border-collapse: collapse; 
+            width: 100%; 
+            margin: 20px 0; 
+            font-size: 0.9em;
+        }
+        th, td { 
+            border: 1px solid #ddd; 
+            padding: 12px; 
+            text-align: left;
+        }
+        th { 
+            background-color: #f2f2f2; 
+            font-weight: bold;
+        }
+        .increase { 
+            color: #e74c3c;
+        }
+        .decrease { 
+            color: #2ecc71;
+        }
+        .highlight {
+            background-color: #f8d7da; 
+        }
+        h2 { 
+            margin-top: 30px; 
+        }
+        ol { 
+            margin-left: 25px; 
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <!-- TABLE 1: CREDIT METRICS BY CATEGORY -->
+    <h2>Credit Quality Metrics (Q1 2025 vs. Q4 2024 vs. Q1 2024)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Segment/Category</th>
+                <th>Q1 2025</th>
+                <th>Change QoQ</th>
+                <th>Q4 2024</th>
+                <th>Q1 2024</th>
+                <th>YoY Change to Q1 2025</th>
+                <th>Risk Indication</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Corporate/Commercial Loans -->
+            <tr>
+                <td>CORPORATE LOANS (Banking/Services)</td>
+                <td>ACL Build: $185M<br>Net Chg-Offs: $34M</td>
+                <td class="increase">ACL ↑ $290M vs Q4 2024 (Q4 was $(204M)</td>
+                <td>ACL Build: $(204M)<br>Net Chg-Offs: $7M</td>
+                <td>ACL Build: $(185M)<br>Net Chg-Offs: $66M</td>
+                <td class="increase">ACL ↑ 2% YoY<br>Chg-Offs ↓ 48%</td>
+                <td><span class="increase">Deteriorating<br></span>ACL build increase due to macroeconomic concerns. Lower charge-offs suggest improving portfolio quality</td>
+            </tr>
+            <!-- Branded Cards (Retail) -->
+            <tr>
+                <td>BRA KDED CARDS (USPB)</td>
+                <td>ACL Build: $(171M) <br>Net Chg-Offs: $1,983M</td>
+                <td><span class="decrease">ACL ↓ 84% (vs Q4 $246M)</td>
+                <td>ACL Build: $246M <br>Net Chg-Offs: $1,920M</td>
+                <td>ACL Build: $337M <br>Net Chg-Offs: $1,864M</td>
+                <td class="increase">ACL ↓ 49% YoY <br>Chg-Offs ↑6%</td>
+                <td><span class="highlight">Mixed Trend</span><br>Reduced ACL but higher charge-offs may indicate higher default risks despite proactive reserves</td>
+            </tr>
+            <!-- Wholesale Markets -->
+            <tr>
+                <td>WHOLESALE (Markets)</td>
+                <td>ACL Build: $57M <br>Net Chg-Offs: $142M</td>
+                <td class="increase">ACL ↓ $79M (Q4 $136M)<br>Chg-Offs ↑ 82% (vs Q4 $78M)</td>
+                <td>ACL Build: $136M <br>Net Chg-Offs: $78M</td>
+                <td>ACL Build: $119M <br>Net Chg-Offs: $249M</td>
+                <td class="decrease">ACL ↓ 52% YoY <br>Chg-Offs ↓ 43%</td>
+                <td><span class="decrease">Stable</span><br>Lower ACL driven by offsetting provisions despite elevated defaults in spread products</td>
+            </tr>
+            <!-- All Other (Legacy/Other) -->
+            <tr>
+                <td>ALL OTHER (Legacy Franchises)</td>
+                <td>ACL Build: $72M <br>Net Chg-Offs: $256M</td>
+                <td class="increase">ACL ↓ $39M (Q4 $111M)</td>
+                <td>ACL Build: $111M <br>Net Chg-Offs: $249M</td>
+                <td>ACL Build: $-98M <br>Net Chg-Offs: $249M</td>
+                <td class="highlight">ACL ↑ 260% YoY<br>Chg-Offs flat</td>
+                <td><span class="increase">Elevated Risk<br></span>Rising ACL in Mexico consumer portfolios and wind-down markets</td>
+            </tr>
+             <!-- Summary row -->
+            <tr style="background-color: #e6f7ff">
+                <td><strong>Total Group</strong></td>
+                <td>Provision: $2,723M</td>
+                <td class="increase">↑ 5% QoQ (vs $2,593M)</td>
+                <td></td>
+                <td>Provision: $2,365M</td>
+                <td class="increase">↑ 15% YoY</td>
+                <td>Macro-driven reserves vs structural issues in Legacy portfolios</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- TABLE 2: KEY MOVEMENTS -->
+    <h2>Material Changes in Provisions</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>1Q 2025 vs 1Q 2024 Delta</th>
+                <th>Description</th>
+                <th>Cyclic vs Structural?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CORP Lending ACL</td>
+                <td>+ACL $200M (from $(185M) to $185M)</td>
+                <td>Macro assumptions driving higher reserves vs prior period recoveries</td>
+                <td><span class="increase">Cyclic</span></td>
+            </tr>
+            <tr>
+                <td>BRADED CARDS Charge-offs</td>
+                <td>+Chg-Offs $120M vs 1Q 2024</td>
+                <td>Higher defaults in consumer card portfolios</td>
+                <td><span class="increase">Both</span></td>
+            </tr>
+            <tr>
+                <td>MEXICO Legacy Loans</td>
+                <td>+ACL $355M to 1Q 2025</td>
+                <td>Portfolio concentration issues affecting Mexico consumer loans</td>
+                <td><span class="highlight">Structural</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Qualitative Summary Section -->
+    <h2>Key Observations & Analysis</h2>
+    <ol>
+        <li><strong>Corporate Exposure:</strong> ACL build for corporate loans surged due to pessimistic macroeconomic assumptions, signaling CYCLICAL concerns preparing for potential downturns</li>
+        <li><strong>Consumer Portfolios:</strong> 
+            <ul>
+                <li>Branded Cards: While ACL reserves contracted, actual charge-offs increased, indicating structural weakness in collections</li>
+                <li>Mexico portfolio: Unresolved wind-down risks led to persistently elevated provisions</li>
+            </ul>
+        </li>
+        <li><strong>Markets/Wholesale: </strong>Stable trends with lower ACL reflective of hedging actions mitigating risk despite product-specific issues (e.g., spread products)</li>
+        <li><strong>Systemic Indicators:</strong> Improving underwriting standards in corporate loans (lower charge-offs) contrast with increasing consumer credit stress</li>
+        <li><strong>Reserve Strategy:</strong> Node shows $213M less FDIC assessments are shifted to organic provisions, signaling prudent reserve building</li>
+    </ol>
+
+    <p style="margin-top: 20px; color: #777;">
+    Note: 'Mixed Trends' indicate competing factors where higher reserves vs lower defaults suggest proactive but uncertain macro outlooks.<br>
+    Color codes: Red ↑ (rising risk), Green ↓ (improving), Highlight regions require close monitoring.
+    </p>
+</body>
+</html>
