@@ -1,0 +1,13 @@
+ollama
+pandas
+numpy
+requests
+httpx
+beautifulsoup4
+openpyxl
+matplotlib
+seaborn
+dash-bootstrap-components
+dash
+plotly
+reportlab
